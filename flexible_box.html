@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		
+			*{
+			margin:0;
+			padding:0;
+			}
+			div.navbar{
+				background-color: red;
+				width: 98%;
+				height: 50px;
+				
+			}
+			
+			.navitem{
+			
+			display: flex;
+			
+			}
+			
+			.dropbtn{
+			background-color: green;
+			color:white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+			width:100px;
+			}
+			.dropdown-content{
+			display:none;
+			}
+			
+			
+		
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="logo">
+				<a href>
+					<img src="abu.png" alt="logo" height="50px" style="float: left;">
+				</a>
+			</div>
+			<div class="navitem">
+				
+				<div><a href="#"><button class="dropbtn">Home </button></a></div>
+				<div><a href="#"><button class="dropbtn">About </button></a></div>
+				<div><a href="#"><button class="dropbtn">con </button></a></div>
+				<div class="dropdown" >
+					<button class="dropbtn">left</button>
+					<div class="dropdown-content">
+						<a href="#">Link1</a>
+						<a href="#">Link2</a>
+						<a href="#">Link3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	
+	</body>
+</html>

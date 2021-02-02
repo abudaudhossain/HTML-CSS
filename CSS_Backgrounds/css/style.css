@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	background-color:#e5a5e5;
+	margin:30px;
+	padding:5px;
+	
+}
+header{
+	background-color:#d398ea;
+	
+	text-align:center;
+	padding-top:29px;
+	
+}
+section{
+	background-color:#605ee0;
+	
+	width:auto;
+	text-align:center;
+	padding-top:29px;
+}
+section .about{
+	margin:0;
+	background-color:#e54747;
+}
+	
+	
+aside{
+	background-color:#5899b7;
+	
+	text-align:center;
+	padding-top:29px;
+}
+
